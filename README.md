@@ -45,6 +45,7 @@ Start the server
 ## 🔗 Links
 
 [Open in local](http://localhost:8008/)
+
 [To test in Docs](http://localhost:8008/docs)
 
 ## API Reference
