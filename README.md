@@ -98,3 +98,47 @@ To create requirements.txt
 ```bash
 pip freeze > requirements.txt
 ```
+
+## Deployed on Heroku
+
+### Steps :-
+
+1. Download Heroku Cli
+
+2.
+
+```bash
+  heroku login
+```
+
+3.
+
+```bash
+  heroku create
+```
+
+4.
+
+```bash
+  heroku git:remote -a {name of app}
+```
+
+5.
+
+```bash
+  git add .
+```
+
+6.
+
+```bash
+  git commit -m "first deploy"
+```
+
+7.
+
+```bash
+  git push heroku main
+```
+
+Deployement Done on Heroku
