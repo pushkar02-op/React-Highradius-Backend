@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  callworkboard:
+    build: .
+    command: uvicorn callworkboard:app --host 0.0.0.0 --reload
+    ports:
+      - 8008:8000
+    volumes:
+      - .:/app
